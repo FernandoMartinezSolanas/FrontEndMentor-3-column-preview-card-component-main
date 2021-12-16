@@ -1,0 +1,145 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    }
+
+.card-sedan {
+    background-color: hsl(31, 77%, 52%);
+    width: 325px;
+    border-radius: 2% 0% 0% 2%; 
+    height: 600px;
+}
+
+.card-suv {
+    background-color: hsl(184, 100%, 22%);
+    width: 325px;
+    height: 600px;
+}
+
+.card-lux {
+    background-color: hsl(179, 100%, 13%);
+    width: 325px;
+    border-radius: 0% 2% 2% 0%; 
+    height: 600px;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-size: 47px;
+}
+
+p{
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 250px;
+    margin-left: 50px;
+    font-size: 15px;
+ 
+   
+    
+
+}
+img{
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+button{
+    padding: 15px 35px 15px 35px;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    background-color: hsl(0, 0%, 95%);
+    transition-duration: 0.4s;
+    text-align: center;
+
+    
+}
+
+.sedan{
+    color: hsl(31, 77%, 52%);
+        
+}
+
+.suv {
+    color: hsl(184, 100%, 22%);
+}
+
+.lux{
+    color: hsl(179, 100%, 13%);
+}
+
+.sedan:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+.suv:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+.lux:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+@media (max-width: 999px){
+    
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 325px;
+    }
+    .card-sedan {
+        background-color: hsl(31, 77%, 52%);
+        width: 325px;
+        border-radius: 2% 2% 0% 0%; 
+        height: 600px;
+    }
+    
+    .card-suv {
+        background-color: hsl(184, 100%, 22%);
+        width: 325px;
+        height: 600px;
+    }
+    
+    .card-lux {
+        background-color: hsl(179, 100%, 13%);
+        width: 325px;
+        border-radius: 0% 0% 2% 2%; 
+        height: 600px;
+    }
+
+    .sedan:hover{
+        background-color: hsl(31, 77%, 52%);
+        color: hsl(0, 0%, 95%);
+    }
+    
+    .suv:hover{
+        background-color: hsl(184, 100%, 22%);
+        color: hsl(0, 0%, 95%);
+    }
+    
+    .lux:hover{
+        background-color: hsl(179, 100%, 13%);
+        color: hsl(0, 0%, 95%);
+    }
+}
